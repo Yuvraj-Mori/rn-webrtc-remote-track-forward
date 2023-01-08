@@ -29,7 +29,7 @@ const App = () => {
   const [remoteAudio, setRemoteAudio] = useState(null);
   const [webcamStarted, setWebcamStarted] = useState(false);
   const [localStream, setLocalStream] = useState(null);
-  const [channelId, setChannelId] = useState("DU5K9cLzIsnl1fOE3eBM");
+  const [channelId, setChannelId] = useState("");
 
   const pc = useRef();
   const servers = {
